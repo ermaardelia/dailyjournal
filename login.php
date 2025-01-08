@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="card-body">
                     <div class="container text-center">
                     <img src="img/icon_person.png" height="80" width="80">
-                        <h2 class="text-center mb-4 fs-3 py-3">My daily Journal</h2>
+                        <h2 class="text-center mb-4 fs-3 py-3">Welcome to My daily Journal</h2>
                         <form action="" method="POST">
                             <div class="mb-3">
                                 <input type="text" class="form-control" name="user" placeholder="Username">
