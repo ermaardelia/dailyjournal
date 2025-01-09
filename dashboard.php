@@ -11,7 +11,7 @@ $sql2 = "SELECT * FROM gallery ORDER BY tanggal DESC";
 $hasil2 = $conn->query($sql2);
 $jumlah_gallery = $hasil1->num_rows;
 
-//query untuk mengambil data gallery
+//query untuk mengambil data user
 $sql3 = "SELECT * FROM user ORDER BY id DESC";
 $hasil3 = $conn->query($sql3);
 $jumlah_user = $hasil3->num_rows;
